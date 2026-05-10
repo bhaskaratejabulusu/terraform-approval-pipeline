@@ -17,3 +17,4 @@ variable "environment" {
   type        = string
   description = "The environment for the instance"
 }
+
