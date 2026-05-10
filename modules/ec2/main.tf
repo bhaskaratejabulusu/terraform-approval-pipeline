@@ -7,6 +7,8 @@ resource "aws_instance" "this" {
     }
 }
 
+
+
 output "instance_id" {
   value = aws_instance.this.id
 }
